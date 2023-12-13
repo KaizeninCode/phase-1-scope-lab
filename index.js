@@ -1,5 +1,5 @@
 // Write your solution in this file!
-window.customerName = 'bob'
+window.customerName = 'bob' //window. variableName means that the variable is being declared at the global scope.
 function upperCaseCustomerName() {
     window.customerName = window.customerName.toUpperCase()
 }
